@@ -1,0 +1,78 @@
+# Node modules
+node_modules/
+
+# Build output directories
+.next/
+out/
+
+# Sistema de cache do Next.js
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+*.d.ts
+
+# Arquivos de configuração de ambiente
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependências de pacotes locais
+.pnp/
+.pnp.js
+
+# Arquivos de configuração do Editor
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Tailwind CSS e PostCSS
+tailwind.config.js*
+postcss.config.js*
+
+# Arquivos gerados pelo Next.js
+/.next/
+
+# Arquivos específicos de cache ou log para JSON
+*.json.*
+
+# Arquivos de banco de dados e log do ambiente de desenvolvimento
+*.sqlite
+*.db
+*.log
+
+# Arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos gerados por editores de texto (Nano, Vim, etc.)
+*.swp
+*~
+.nfs*
+.vscode/
+
+# ESLint
+.eslintcache
+
+# Dependências do Yarn (lockfile, etc)
+.yarn/
+
+# Arquivos de Build do TypeScript (quando não usarem o Next.js)
+tsconfig.tsbuildinfo
+
+# Arquivos de backup de editor (nano, vim, etc.)
+*.bak
+*.tmp
+*.swp
+
+# Docker
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
