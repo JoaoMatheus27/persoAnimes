@@ -20,14 +20,11 @@
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   },
-    "name": "frontend",
-    "scripts": {
-      "dev": "next dev",
-      "build": "next build",
-      "start": "next start"
-    },
+  "name": "frontend",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts",
-    "start": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "ts-dev": "ts-node-dev src/index.ts"
   }
 }
